@@ -2,21 +2,21 @@ language: java
 
 services:
   # Also works, but can't specify version...
-  # - neo4j
+   - neo4j
 
-env:
+#env:
   # Test across multiple versions of Neo4j:
-  - NEO4J_VERSION="3.3.0"
+#  - NEO4J_VERSION="3.3.0"
 
 #cache:
 #  directories:
 #    - node_modules
 
-before_install:
+#before_install:
   # Install Neo4j locally:
-  - wget dist.neo4j.org/neo4j-community-$NEO4J_VERSION-unix.tar.gz
-  - tar -xzf neo4j-community-$NEO4J_VERSION-unix.tar.gz
-  - neo4j-community-$NEO4J_VERSION/bin/neo4j start
+#  - wget dist.neo4j.org/neo4j-community-$NEO4J_VERSION-unix.tar.gz
+#  - tar -xzf neo4j-community-$NEO4J_VERSION-unix.tar.gz
+#  - neo4j-community-$NEO4J_VERSION/bin/neo4j start
   # HACK need to change the password initially; changing it and then reverting:
 #  - sleep 10  # give Neo4J some time to start
 #  - curl -v POST http://neo4j:neo4j@localhost:7474/user/neo4j/password -d"password=neo4j2"
