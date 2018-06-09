@@ -11,4 +11,12 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'org.assertj:assertj-core:3.9.0'
+    testCompile 'io.cucumber:cucumber-java:2.4.0'
+    testCompile 'io.cucumber:cucumber-junit:2.4.0'
+
+    compile fileTree(dir: 'libs', include:'*.jar')
+
+    compile 'mysql:mysql-connector-java:5.1.39'
+    compile 'org.neo4j.driver:neo4j-java-driver:1.4.4'
 }
