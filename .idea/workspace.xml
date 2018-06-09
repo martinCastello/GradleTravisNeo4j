@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca742d0-a0e0-476a-8cc4-23054c5cc969" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BD/UsuarioNeo4j.java" afterPath="$PROJECT_DIR$/src/main/java/BD/UsuarioNeo4j.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="244">
+              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsuarioNeo4j.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsuarioNeo4j.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BD/UsuarioNeo4j.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -385,8 +385,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Entidades/Persona.java" />
         <option value="$PROJECT_DIR$/src/test/java/Neo4jTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BD/ConectarBD.java" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/java/BD/UsuarioNeo4j.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -599,7 +599,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528558086765</updated>
-      <workItem from="1528558090723" duration="5567000" />
+      <workItem from="1528558090723" duration="5892000" />
     </task>
     <servers />
   </component>
@@ -612,7 +612,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5567000" />
+    <option name="totallyTimeSpent" value="5892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-21" y="44" width="1346" height="701" extended-state="0" />
@@ -731,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BD/UsuarioNeo4j.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -746,6 +738,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
