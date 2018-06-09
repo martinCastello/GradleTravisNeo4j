@@ -1,11 +1,7 @@
 language: java
 
 services:
-  - neo4j
-
-env:
-  # Test across multiple versions of Neo4j:
-  - NEO4J_VERSION="3.3.0"
+  - neo4j 3.3.0
 
 before_install:
   - sleep 10
