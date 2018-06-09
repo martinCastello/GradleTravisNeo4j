@@ -1,5 +1,6 @@
 package BD;
 
+import java.sql.DriverManager;
 import java.util.List;
 
 import Entidades.Persona;
@@ -17,7 +18,7 @@ public class UsuarioNeo4j {
 
     public UsuarioNeo4j() {
         //this.driver = GraphDatabase.driver( "bolt://localhost:7687", AuthTokens.basic( "neo4j", "password" ) );
-        this.driver = GraphDatabase.driver( "http://localhost:7474", AuthTokens.basic( "neo4j", "neo4j" ) );
+        this.driver = GraphDatabase.driver( "http://localhost:7474/", AuthTokens.basic( "neo4j", "" ) );
     }
 
     public void create(Persona persona) {
