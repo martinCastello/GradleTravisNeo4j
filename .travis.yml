@@ -2,3 +2,6 @@ language: java
 
 services:
   - neo4j
+
+before_install:
+  - curl -v POST http://neo4j:neo4j@localhost:7474/user/neo4j/password -d"password=neo4j"
